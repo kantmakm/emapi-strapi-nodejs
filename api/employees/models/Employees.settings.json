@@ -1,0 +1,43 @@
+{
+  "connection": "default",
+  "collectionName": "employees",
+  "info": {
+    "name": "employees",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "ID": {
+      "default": "",
+      "type": "integer"
+    },
+    "FirstName": {
+      "default": "",
+      "type": "string"
+    },
+    "MiddleInitial": {
+      "default": "",
+      "type": "string"
+    },
+    "LastName": {
+      "default": "",
+      "type": "string"
+    },
+    "DateOfBirth": {
+      "default": "",
+      "type": "date"
+    },
+    "DateOfEmployment": {
+      "default": "",
+      "type": "date"
+    },
+    "status": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

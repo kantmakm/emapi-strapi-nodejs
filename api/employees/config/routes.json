@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/employees",
+      "handler": "Employees.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/employees/count",
+      "handler": "Employees.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/employees/:id",
+      "handler": "Employees.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/employees",
+      "handler": "Employees.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/employees/:id",
+      "handler": "Employees.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/employees/:id",
+      "handler": "Employees.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/employees/:id/relationships/:relation",
+      "handler": "Employees.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/employees/:id/relationships/:relation",
+      "handler": "Employees.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/employees/:id/relationships/:relation",
+      "handler": "Employees.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
